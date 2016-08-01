@@ -1,0 +1,27 @@
+body {
+  background-image: url('http://api.thumbr.it/whitenoise-361x370.png?background=ffffffff&noise=626262&density=32&opacity=33');
+}
+
+svg { 
+-webkit-box-shadow: 5px 12px 32px 1px rgba(0,0,0,0.72);
+-moz-box-shadow: 5px 12px 32px 1px rgba(0,0,0,0.72);
+box-shadow: 5px 12px 32px 1px rgba(0,0,0,0.72);
+}
+
+.d3-tip {
+  
+  color: white;
+  background: rgba(15, 155, 160, 0.8);
+  padding: 5px;
+  font-weight: bold;
+  border-radius: 2px;
+  text-align: center;
+  
+  min-width: 140px;
+  
+}
+
+rect:hover {
+  fill: #fff199;
+  
+}
